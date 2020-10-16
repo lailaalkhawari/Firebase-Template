@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		221CD90A2538A7BD0043EDB7 /* moviesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221CD9092538A7BD0043EDB7 /* moviesData.swift */; };
 		22CBD0E92538A1FD00BE5FE4 /* signinVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CBD0E82538A1FD00BE5FE4 /* signinVC.swift */; };
 		22E2167E253799FC006E7FC2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22E2167D253799FC006E7FC2 /* GoogleService-Info.plist */; };
 		22E2168725379B58006E7FC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22E2168525379B58006E7FC2 /* Main.storyboard */; };
 		22E2168B2537A08B006E7FC2 /* userGIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E2168A2537A08B006E7FC2 /* userGIF.swift */; };
 		22E2168E2537A0EF006E7FC2 /* userVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E2168D2537A0EF006E7FC2 /* userVC.swift */; };
+		22EE79052539AD9F00D79DBF /* moviesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EE79042539AD9F00D79DBF /* moviesData.swift */; };
 		D209076324B9ED810069B920 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D209076224B9ED810069B920 /* SignInVC.swift */; };
 		D209076524B9EE8D0069B920 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D209076424B9EE8D0069B920 /* SignUpVC.swift */; };
 		D209076724B9FB0D0069B920 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D209076624B9FB0D0069B920 /* HomeVC.swift */; };
@@ -62,12 +62,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		221CD9092538A7BD0043EDB7 /* moviesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = moviesData.swift; path = FirebaseTemplate/moviesData.swift; sourceTree = SOURCE_ROOT; };
 		22CBD0E82538A1FD00BE5FE4 /* signinVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = signinVC.swift; path = FirebaseTemplate/signinVC.swift; sourceTree = SOURCE_ROOT; };
 		22E2167D253799FC006E7FC2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		22E2168625379B58006E7FC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../MOOM/MOOM/MOOM/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22E2168A2537A08B006E7FC2 /* userGIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userGIF.swift; sourceTree = "<group>"; };
 		22E2168D2537A0EF006E7FC2 /* userVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = userVC.swift; path = FirebaseTemplate/userVC.swift; sourceTree = SOURCE_ROOT; };
+		22EE79042539AD9F00D79DBF /* moviesData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = moviesData.swift; sourceTree = "<group>"; };
 		9377AE6CE82235456148A2D9 /* Pods-FirebaseTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseTemplate.release.xcconfig"; path = "Target Support Files/Pods-FirebaseTemplate/Pods-FirebaseTemplate.release.xcconfig"; sourceTree = "<group>"; };
 		B1FD124CAB9AE9745E818900 /* Pods-FirebaseTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseTemplate.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseTemplate/Pods-FirebaseTemplate.debug.xcconfig"; sourceTree = "<group>"; };
 		D209075F24B9EA180069B920 /* omsiSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = omsiSB.storyboard; sourceTree = "<group>"; };
@@ -309,7 +309,7 @@
 		D2C2705324662CAA005E16A3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				221CD9092538A7BD0043EDB7 /* moviesData.swift */,
+				22EE79042539AD9F00D79DBF /* moviesData.swift */,
 				D2C2705124662C9A005E16A3 /* User.swift */,
 				D2C2705624662F3F005E16A3 /* Item.swift */,
 			);
@@ -440,7 +440,7 @@
 				22CBD0E92538A1FD00BE5FE4 /* signinVC.swift in Sources */,
 				D2C2704B24662C68005E16A3 /* Optional.swift in Sources */,
 				D2C26FD624662807005E16A3 /* SceneDelegate.swift in Sources */,
-				221CD90A2538A7BD0043EDB7 /* moviesData.swift in Sources */,
+				22EE79052539AD9F00D79DBF /* moviesData.swift in Sources */,
 				D2C2704924662C68005E16A3 /* Codable.swift in Sources */,
 				D2C2704724662C63005E16A3 /* ValidatePassword.swift in Sources */,
 				D2C2704A24662C68005E16A3 /* Keyboard.swift in Sources */,
