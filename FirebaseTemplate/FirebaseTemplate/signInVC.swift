@@ -9,11 +9,14 @@
 import Foundation
 import UIKit
 
-class SigninVC: UIViewController {
+class SignInVC: UIViewController {
+
+    
 
     @IBOutlet weak var emailField: UITextField!
     
-  
+    @IBOutlet weak var passwordField: UITextField!
+    
     
 //    @IBOutlet weak var emailField: UITextField!
 //    @IBOutlet weak var passwordField: UITextField!
@@ -23,6 +26,8 @@ class SigninVC: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    
+    
     
     
     @IBAction func signIn(){

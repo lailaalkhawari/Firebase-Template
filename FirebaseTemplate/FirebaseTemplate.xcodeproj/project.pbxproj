@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		22CBD0E92538A1FD00BE5FE4 /* signinVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CBD0E82538A1FD00BE5FE4 /* signinVC.swift */; };
+		22CBD0E92538A1FD00BE5FE4 /* signInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CBD0E82538A1FD00BE5FE4 /* signInVC.swift */; };
 		22E2167E253799FC006E7FC2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22E2167D253799FC006E7FC2 /* GoogleService-Info.plist */; };
 		22E2168725379B58006E7FC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22E2168525379B58006E7FC2 /* Main.storyboard */; };
 		22E2168B2537A08B006E7FC2 /* userGIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E2168A2537A08B006E7FC2 /* userGIF.swift */; };
 		22E2168E2537A0EF006E7FC2 /* userVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E2168D2537A0EF006E7FC2 /* userVC.swift */; };
 		22EE79052539AD9F00D79DBF /* moviesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EE79042539AD9F00D79DBF /* moviesData.swift */; };
-		D209076324B9ED810069B920 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D209076224B9ED810069B920 /* SignInVC.swift */; };
-		D209076524B9EE8D0069B920 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D209076424B9EE8D0069B920 /* SignUpVC.swift */; };
+		22EE79092539C52700D79DBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22EE79082539C52700D79DBF /* Assets.xcassets */; };
+		22EE79112539CA6800D79DBF /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EE79102539CA6800D79DBF /* SignUpVC.swift */; };
+		22EE791D2539D3DC00D79DBF /* MovieCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EE791C2539D3DC00D79DBF /* MovieCollectionVC.swift */; };
+		22EE79202539D42D00D79DBF /* CollectionVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EE791F2539D42D00D79DBF /* CollectionVCell.swift */; };
+		D209076324B9ED810069B920 /* OMRSignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D209076224B9ED810069B920 /* OMRSignInVC.swift */; };
+		D209076524B9EE8D0069B920 /* OMRSignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D209076424B9EE8D0069B920 /* OMRSignUpVC.swift */; };
 		D209076724B9FB0D0069B920 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D209076624B9FB0D0069B920 /* HomeVC.swift */; };
 		D209076924B9FDC60069B920 /* CreateItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D209076824B9FDC60069B920 /* CreateItemVC.swift */; };
 		D209076B24B9FDD80069B920 /* ItemListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D209076A24B9FDD80069B920 /* ItemListVC.swift */; };
@@ -62,17 +66,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		22CBD0E82538A1FD00BE5FE4 /* signinVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = signinVC.swift; path = FirebaseTemplate/signinVC.swift; sourceTree = SOURCE_ROOT; };
+		22CBD0E82538A1FD00BE5FE4 /* signInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = signInVC.swift; path = FirebaseTemplate/signInVC.swift; sourceTree = SOURCE_ROOT; };
 		22E2167D253799FC006E7FC2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		22E2168625379B58006E7FC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../MOOM/MOOM/MOOM/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22E2168A2537A08B006E7FC2 /* userGIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userGIF.swift; sourceTree = "<group>"; };
 		22E2168D2537A0EF006E7FC2 /* userVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = userVC.swift; path = FirebaseTemplate/userVC.swift; sourceTree = SOURCE_ROOT; };
 		22EE79042539AD9F00D79DBF /* moviesData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = moviesData.swift; sourceTree = "<group>"; };
+		22EE79082539C52700D79DBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22EE79102539CA6800D79DBF /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignUpVC.swift; path = FirebaseTemplate/SignUpVC.swift; sourceTree = SOURCE_ROOT; };
+		22EE791C2539D3DC00D79DBF /* MovieCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionVC.swift; sourceTree = SOURCE_ROOT; };
+		22EE791F2539D42D00D79DBF /* CollectionVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CollectionVCell.swift; path = FirebaseTemplate/CollectionVCell.swift; sourceTree = SOURCE_ROOT; };
 		9377AE6CE82235456148A2D9 /* Pods-FirebaseTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseTemplate.release.xcconfig"; path = "Target Support Files/Pods-FirebaseTemplate/Pods-FirebaseTemplate.release.xcconfig"; sourceTree = "<group>"; };
 		B1FD124CAB9AE9745E818900 /* Pods-FirebaseTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseTemplate.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseTemplate/Pods-FirebaseTemplate.debug.xcconfig"; sourceTree = "<group>"; };
 		D209075F24B9EA180069B920 /* omsiSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = omsiSB.storyboard; sourceTree = "<group>"; };
-		D209076224B9ED810069B920 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
-		D209076424B9EE8D0069B920 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		D209076224B9ED810069B920 /* OMRSignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMRSignInVC.swift; sourceTree = "<group>"; };
+		D209076424B9EE8D0069B920 /* OMRSignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMRSignUpVC.swift; sourceTree = "<group>"; };
 		D209076624B9FB0D0069B920 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		D209076824B9FDC60069B920 /* CreateItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateItemVC.swift; sourceTree = "<group>"; };
 		D209076A24B9FDD80069B920 /* ItemListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListVC.swift; sourceTree = "<group>"; };
@@ -178,10 +186,13 @@
 		D209076124B9ED660069B920 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				22CBD0E82538A1FD00BE5FE4 /* signinVC.swift */,
+				22EE791F2539D42D00D79DBF /* CollectionVCell.swift */,
+				22EE791C2539D3DC00D79DBF /* MovieCollectionVC.swift */,
+				22EE79102539CA6800D79DBF /* SignUpVC.swift */,
+				22CBD0E82538A1FD00BE5FE4 /* signInVC.swift */,
 				22E2168D2537A0EF006E7FC2 /* userVC.swift */,
-				D209076224B9ED810069B920 /* SignInVC.swift */,
-				D209076424B9EE8D0069B920 /* SignUpVC.swift */,
+				D209076224B9ED810069B920 /* OMRSignInVC.swift */,
+				D209076424B9EE8D0069B920 /* OMRSignUpVC.swift */,
 				D209076624B9FB0D0069B920 /* HomeVC.swift */,
 				D209076824B9FDC60069B920 /* CreateItemVC.swift */,
 				D209076A24B9FDD80069B920 /* ItemListVC.swift */,
@@ -218,6 +229,7 @@
 				D209075F24B9EA180069B920 /* omsiSB.storyboard */,
 				22E2168525379B58006E7FC2 /* Main.storyboard */,
 				22E2168A2537A08B006E7FC2 /* userGIF.swift */,
+				22EE79082539C52700D79DBF /* Assets.xcassets */,
 				D2C2703E24662C5A005E16A3 /* Networking */,
 				D2C2705324662CAA005E16A3 /* Models */,
 				D2C26FDE24662809005E16A3 /* LaunchScreen.storyboard */,
@@ -380,6 +392,7 @@
 				22E2167E253799FC006E7FC2 /* GoogleService-Info.plist in Resources */,
 				22E2168725379B58006E7FC2 /* Main.storyboard in Resources */,
 				D2C26FDD24662809005E16A3 /* Preview Assets.xcassets in Resources */,
+				22EE79092539C52700D79DBF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +450,7 @@
 				D2C2704C24662C6E005E16A3 /* Networking.swift in Sources */,
 				D2C2705724662F3F005E16A3 /* Item.swift in Sources */,
 				D209076724B9FB0D0069B920 /* HomeVC.swift in Sources */,
-				22CBD0E92538A1FD00BE5FE4 /* signinVC.swift in Sources */,
+				22CBD0E92538A1FD00BE5FE4 /* signInVC.swift in Sources */,
 				D2C2704B24662C68005E16A3 /* Optional.swift in Sources */,
 				D2C26FD624662807005E16A3 /* SceneDelegate.swift in Sources */,
 				22EE79052539AD9F00D79DBF /* moviesData.swift in Sources */,
@@ -445,17 +458,20 @@
 				D2C2704724662C63005E16A3 /* ValidatePassword.swift in Sources */,
 				D2C2704A24662C68005E16A3 /* Keyboard.swift in Sources */,
 				D209076924B9FDC60069B920 /* CreateItemVC.swift in Sources */,
+				22EE79112539CA6800D79DBF /* SignUpVC.swift in Sources */,
 				D2C2704624662C63005E16A3 /* ImageUploader.swift in Sources */,
 				22E2168B2537A08B006E7FC2 /* userGIF.swift in Sources */,
+				22EE79202539D42D00D79DBF /* CollectionVCell.swift in Sources */,
 				D209076B24B9FDD80069B920 /* ItemListVC.swift in Sources */,
 				D2C2705224662C9A005E16A3 /* User.swift in Sources */,
-				D209076324B9ED810069B920 /* SignInVC.swift in Sources */,
+				D209076324B9ED810069B920 /* OMRSignInVC.swift in Sources */,
 				D2C2705024662C73005E16A3 /* NetworkingSignUp.swift in Sources */,
 				D2C2704524662C63005E16A3 /* ImageLoader.swift in Sources */,
 				D2C2704824662C63005E16A3 /* DateFromatter.swift in Sources */,
 				D2C2704F24662C73005E16A3 /* NetowrkableAuth.swift in Sources */,
+				22EE791D2539D3DC00D79DBF /* MovieCollectionVC.swift in Sources */,
 				D2C2704D24662C6E005E16A3 /* NetworkingImages.swift in Sources */,
-				D209076524B9EE8D0069B920 /* SignUpVC.swift in Sources */,
+				D209076524B9EE8D0069B920 /* OMRSignUpVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
