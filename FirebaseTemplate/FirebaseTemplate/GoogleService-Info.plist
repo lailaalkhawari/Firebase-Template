@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>304346583724-am78vu1iu0ss1hi9a06qvcmn880bmmg3.apps.googleusercontent.com</string>
+	<string>167681304876-1iio0ojdtnuaool7p0dhc8kimsnjops1.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.304346583724-am78vu1iu0ss1hi9a06qvcmn880bmmg3</string>
+	<string>com.googleusercontent.apps.167681304876-1iio0ojdtnuaool7p0dhc8kimsnjops1</string>
 	<key>API_KEY</key>
-	<string>AIzaSyAwbyMUmOwcyaJq3G1htV0vYLdnpPS4SAE</string>
+	<string>AIzaSyCPFpHvgAzq71yKw6c198-ADIXA4bACjDI</string>
 	<key>GCM_SENDER_ID</key>
-	<string>304346583724</string>
+	<string>167681304876</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.khatma.com</string>
+	<string>kuwaitcodes.MOOM</string>
 	<key>PROJECT_ID</key>
-	<string>khatma-3e0cb</string>
+	<string>moom-e9962</string>
 	<key>STORAGE_BUCKET</key>
-	<string>khatma-3e0cb.appspot.com</string>
+	<string>moom-e9962.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,8 +29,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:304346583724:ios:901404680d162d2c124509</string>
+	<string>1:167681304876:ios:0bfd795be18f2ba617e489</string>
 	<key>DATABASE_URL</key>
-	<string>https://khatma-3e0cb.firebaseio.com</string>
+	<string>https://moom-e9962.firebaseio.com</string>
 </dict>
 </plist>

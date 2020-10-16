@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "the-pursuit-of-happyness-movie-poster-2006-1020388854.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
