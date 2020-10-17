@@ -22,22 +22,49 @@ class SignUpVC: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    //var VC nwediewjdoiewj as  LixstVCV
+    //VC.name = firstNameField.text!
+    
+    
+    
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if(segue.identifier == "Signed"){
+                let sendData = segue.destination as! ListVC
+                //displayVC.name = nameTextField.text
+            
+            sendData.name = firstNameField.text
+            sendData.email = emailField.text
+            sendData.password = passwordField.text
+            sendData.confPass = conformPassword.text
+
+        }
+    }
+    
+
     
     @IBAction func signUp(){
-        let email = emailField.text!
-        let password = passwordField.text!
-        let conformPassword = confirmPasswordField.text!
-        let firstName = firstNameField.text!
         
-        // You can use another User Struct as you wish
+//        let email = emailField.text!
+//        let password = passwordField.text!
+//        let conformPassword = confirmPasswordField.text!
+//        let firstName = firstNameField.text!
+//        var list = []
+        
+       // // You can use another User Struct as you wish
+        
+        
         let user = User(firstName: firstName,
                         email: email)
 
         if validatePassword(password: password, conformPassword: conformPassword){
             Networking.signUp(user: user, password: password, success:  { uid in
                 // ✅ Success
+               
                 print("You have signed up successfully")
-                self.performSegue(withIdentifier: "signed", sender: nil)
+                //do the segue to the collectionViewController
+                self.performSegue(withIdentifier: "signed", sender: nil) 
             }){
                 // ❌ Failed
                 self.errorMessage(message: "Couldn't sign in, make sure the email and password are correct")

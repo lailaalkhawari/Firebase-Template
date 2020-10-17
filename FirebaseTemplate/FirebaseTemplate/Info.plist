@@ -36,7 +36,9 @@
 					<key>UISceneDelegateClassName</key>
 					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
 					<key>UISceneStoryboardFile</key>
-					<string>MOOM</string>
+					<string>Main</string>
+					<key>UISceneClassName</key>
+					<string></string>
 				</dict>
 			</array>
 		</dict>
