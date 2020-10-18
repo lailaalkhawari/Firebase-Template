@@ -8,6 +8,8 @@
 
 import Foundation
 
+
+
 struct Movie {
     var movieName : String
     var moviePoster : String
@@ -18,6 +20,7 @@ struct Movie {
 
 let mood  = ["funny" , "normal" , "happy" , "sad" , "afraid" , "angry"]
 let whithWho = ["family" , "girls" , "boys" , "alone"]
+
 
 let happy = [
     

@@ -38,6 +38,7 @@ class SignUpVC: UIViewController {
             sendData.email = emailField.text
             sendData.password = passwordField.text
             sendData.confPass = conformPassword.text
+            
 
         }
     }

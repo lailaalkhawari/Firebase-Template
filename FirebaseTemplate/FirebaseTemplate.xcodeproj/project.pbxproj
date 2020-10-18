@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		22B684D8253B615F00AEB346 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B684D7253B615F00AEB346 /* ListCell.swift */; };
+		226D57D6253CBA46009AD53C /* FavListMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226D57D5253CBA46009AD53C /* FavListMovies.swift */; };
+		22B684DB253C958C00AEB346 /* FavList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B684DA253C958C00AEB346 /* FavList.swift */; };
 		22E2167E253799FC006E7FC2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22E2167D253799FC006E7FC2 /* GoogleService-Info.plist */; };
 		22E2168725379B58006E7FC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22E2168525379B58006E7FC2 /* Main.storyboard */; };
 		22EE79052539AD9F00D79DBF /* moviesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EE79042539AD9F00D79DBF /* moviesData.swift */; };
 		22EE79092539C52700D79DBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22EE79082539C52700D79DBF /* Assets.xcassets */; };
-		22EE7979253B590B00D79DBF /* ListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EE7978253B590B00D79DBF /* ListVC.swift */; };
 		D209076324B9ED810069B920 /* OMRSignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D209076224B9ED810069B920 /* OMRSignInVC.swift */; };
 		D209076524B9EE8D0069B920 /* OMRSignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D209076424B9EE8D0069B920 /* OMRSignUpVC.swift */; };
 		D209076724B9FB0D0069B920 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D209076624B9FB0D0069B920 /* HomeVC.swift */; };
@@ -60,14 +60,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		22B684D7253B615F00AEB346 /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ListCell.swift; path = FirebaseTemplate/ListCell.swift; sourceTree = SOURCE_ROOT; };
+		226D57D5253CBA46009AD53C /* FavListMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FavListMovies.swift; path = FirebaseTemplate/FavListMovies.swift; sourceTree = SOURCE_ROOT; };
+		22B684DA253C958C00AEB346 /* FavList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FavList.swift; path = FirebaseTemplate/ViewControllers/FavList.swift; sourceTree = SOURCE_ROOT; };
 		22CBD0E82538A1FD00BE5FE4 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignInVC.swift; path = FirebaseTemplate/SignInVC.swift; sourceTree = SOURCE_ROOT; };
 		22E2167D253799FC006E7FC2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		22E2168625379B58006E7FC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../MOOM/MOOM/MOOM/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22EE79042539AD9F00D79DBF /* moviesData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = moviesData.swift; sourceTree = "<group>"; };
 		22EE79082539C52700D79DBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22EE79102539CA6800D79DBF /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignUpVC.swift; path = FirebaseTemplate/SignUpVC.swift; sourceTree = SOURCE_ROOT; };
-		22EE7978253B590B00D79DBF /* ListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ListVC.swift; path = FirebaseTemplate/ListVC.swift; sourceTree = SOURCE_ROOT; };
 		9377AE6CE82235456148A2D9 /* Pods-FirebaseTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseTemplate.release.xcconfig"; path = "Target Support Files/Pods-FirebaseTemplate/Pods-FirebaseTemplate.release.xcconfig"; sourceTree = "<group>"; };
 		B1FD124CAB9AE9745E818900 /* Pods-FirebaseTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseTemplate.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseTemplate/Pods-FirebaseTemplate.debug.xcconfig"; sourceTree = "<group>"; };
 		D209075F24B9EA180069B920 /* omsiSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = omsiSB.storyboard; sourceTree = "<group>"; };
@@ -178,8 +178,7 @@
 		D209076124B9ED660069B920 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				22B684D7253B615F00AEB346 /* ListCell.swift */,
-				22EE7978253B590B00D79DBF /* ListVC.swift */,
+				226D57D5253CBA46009AD53C /* FavListMovies.swift */,
 				22EE79102539CA6800D79DBF /* SignUpVC.swift */,
 				22CBD0E82538A1FD00BE5FE4 /* SignInVC.swift */,
 				D209076224B9ED810069B920 /* OMRSignInVC.swift */,
@@ -311,6 +310,7 @@
 		D2C2705324662CAA005E16A3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				22B684DA253C958C00AEB346 /* FavList.swift */,
 				22EE79042539AD9F00D79DBF /* moviesData.swift */,
 				D2C2705124662C9A005E16A3 /* User.swift */,
 				D2C2705624662F3F005E16A3 /* Item.swift */,
@@ -438,16 +438,16 @@
 				D2C26FD424662807005E16A3 /* AppDelegate.swift in Sources */,
 				D2C2704C24662C6E005E16A3 /* Networking.swift in Sources */,
 				D2C2705724662F3F005E16A3 /* Item.swift in Sources */,
-				22B684D8253B615F00AEB346 /* ListCell.swift in Sources */,
 				D209076724B9FB0D0069B920 /* HomeVC.swift in Sources */,
 				D2C2704B24662C68005E16A3 /* Optional.swift in Sources */,
 				D2C26FD624662807005E16A3 /* SceneDelegate.swift in Sources */,
 				22EE79052539AD9F00D79DBF /* moviesData.swift in Sources */,
+				226D57D6253CBA46009AD53C /* FavListMovies.swift in Sources */,
 				D2C2704924662C68005E16A3 /* Codable.swift in Sources */,
+				22B684DB253C958C00AEB346 /* FavList.swift in Sources */,
 				D2C2704724662C63005E16A3 /* ValidatePassword.swift in Sources */,
 				D2C2704A24662C68005E16A3 /* Keyboard.swift in Sources */,
 				D2C2704624662C63005E16A3 /* ImageUploader.swift in Sources */,
-				22EE7979253B590B00D79DBF /* ListVC.swift in Sources */,
 				D2C2705224662C9A005E16A3 /* User.swift in Sources */,
 				D209076324B9ED810069B920 /* OMRSignInVC.swift in Sources */,
 				D2C2705024662C73005E16A3 /* NetworkingSignUp.swift in Sources */,
