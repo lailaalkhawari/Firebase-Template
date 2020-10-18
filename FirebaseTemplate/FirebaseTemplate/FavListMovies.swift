@@ -25,10 +25,12 @@ class FavListMovies: UIViewController , UITableViewDelegate , UITableViewDataSou
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) //as!
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! FavListCell
         
-        cell.textLabel?.text = normal[indexPath.row].movieName
-        
+        cell.imagePoster.image = (UIImage(named: normal[indexPath.row].moviePoster))
+        cell.labelName.text = normal[indexPath.row].movieName
+        cell.labelRate.text = normal[indexPath.row].movieRate
+      
         return cell
     }
 

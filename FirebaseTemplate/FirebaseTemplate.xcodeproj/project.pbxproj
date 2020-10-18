@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		226D57D6253CBA46009AD53C /* FavListMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226D57D5253CBA46009AD53C /* FavListMovies.swift */; };
+		226D57E0253CE47B009AD53C /* FavListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226D57DF253CE47B009AD53C /* FavListCell.swift */; };
 		22B684DB253C958C00AEB346 /* FavList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B684DA253C958C00AEB346 /* FavList.swift */; };
 		22E2167E253799FC006E7FC2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22E2167D253799FC006E7FC2 /* GoogleService-Info.plist */; };
 		22E2168725379B58006E7FC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22E2168525379B58006E7FC2 /* Main.storyboard */; };
@@ -61,6 +62,7 @@
 
 /* Begin PBXFileReference section */
 		226D57D5253CBA46009AD53C /* FavListMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FavListMovies.swift; path = FirebaseTemplate/FavListMovies.swift; sourceTree = SOURCE_ROOT; };
+		226D57DF253CE47B009AD53C /* FavListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FavListCell.swift; path = FirebaseTemplate/FavListCell.swift; sourceTree = SOURCE_ROOT; };
 		22B684DA253C958C00AEB346 /* FavList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FavList.swift; path = FirebaseTemplate/ViewControllers/FavList.swift; sourceTree = SOURCE_ROOT; };
 		22CBD0E82538A1FD00BE5FE4 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignInVC.swift; path = FirebaseTemplate/SignInVC.swift; sourceTree = SOURCE_ROOT; };
 		22E2167D253799FC006E7FC2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 		D209076124B9ED660069B920 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				226D57DF253CE47B009AD53C /* FavListCell.swift */,
 				226D57D5253CBA46009AD53C /* FavListMovies.swift */,
 				22EE79102539CA6800D79DBF /* SignUpVC.swift */,
 				22CBD0E82538A1FD00BE5FE4 /* SignInVC.swift */,
@@ -446,6 +449,7 @@
 				D2C2704924662C68005E16A3 /* Codable.swift in Sources */,
 				22B684DB253C958C00AEB346 /* FavList.swift in Sources */,
 				D2C2704724662C63005E16A3 /* ValidatePassword.swift in Sources */,
+				226D57E0253CE47B009AD53C /* FavListCell.swift in Sources */,
 				D2C2704A24662C68005E16A3 /* Keyboard.swift in Sources */,
 				D2C2704624662C63005E16A3 /* ImageUploader.swift in Sources */,
 				D2C2705224662C9A005E16A3 /* User.swift in Sources */,
