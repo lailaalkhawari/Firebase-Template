@@ -9,6 +9,7 @@
 import UIKit
 
 var favList : [Movie] = []
+
 class FavListMovies: UIViewController , UITableViewDelegate , UITableViewDataSource {
   
     
@@ -39,6 +40,17 @@ class FavListMovies: UIViewController , UITableViewDelegate , UITableViewDataSou
         favList.append(normal[indexPath.row])
         print(favList)
     }
+    
+    
+    @IBAction func nextButton(_ sender: Any) {
+        
+        performSegue(withIdentifier: "goto" , sender: favList)
+        
+//        the signUp action here
+        
+        
+    }
+    
     
     
     /*

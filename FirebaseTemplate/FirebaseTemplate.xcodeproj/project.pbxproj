@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		223CF46C253DE388004A0117 /* searchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223CF46B253DE388004A0117 /* searchVC.swift */; };
+		223CF478253DED6F004A0117 /* MoodsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223CF477253DED6F004A0117 /* MoodsVC.swift */; };
+		223CF47B253DEF3C004A0117 /* PeopleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223CF47A253DEF3C004A0117 /* PeopleVC.swift */; };
+		223CF47E253DF990004A0117 /* results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223CF47D253DF990004A0117 /* results.swift */; };
 		226D57D6253CBA46009AD53C /* FavListMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226D57D5253CBA46009AD53C /* FavListMovies.swift */; };
 		226D57E0253CE47B009AD53C /* FavListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226D57DF253CE47B009AD53C /* FavListCell.swift */; };
 		22B684DB253C958C00AEB346 /* FavList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B684DA253C958C00AEB346 /* FavList.swift */; };
@@ -61,6 +65,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		223CF46B253DE388004A0117 /* searchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = searchVC.swift; path = FirebaseTemplate/searchVC.swift; sourceTree = SOURCE_ROOT; };
+		223CF477253DED6F004A0117 /* MoodsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodsVC.swift; sourceTree = SOURCE_ROOT; };
+		223CF47A253DEF3C004A0117 /* PeopleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleVC.swift; sourceTree = "<group>"; };
+		223CF47D253DF990004A0117 /* results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = results.swift; path = FirebaseTemplate/results.swift; sourceTree = SOURCE_ROOT; };
 		226D57D5253CBA46009AD53C /* FavListMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FavListMovies.swift; path = FirebaseTemplate/FavListMovies.swift; sourceTree = SOURCE_ROOT; };
 		226D57DF253CE47B009AD53C /* FavListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FavListCell.swift; path = FirebaseTemplate/FavListCell.swift; sourceTree = SOURCE_ROOT; };
 		22B684DA253C958C00AEB346 /* FavList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FavList.swift; path = FirebaseTemplate/ViewControllers/FavList.swift; sourceTree = SOURCE_ROOT; };
@@ -180,6 +188,9 @@
 		D209076124B9ED660069B920 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				223CF47D253DF990004A0117 /* results.swift */,
+				223CF477253DED6F004A0117 /* MoodsVC.swift */,
+				223CF46B253DE388004A0117 /* searchVC.swift */,
 				226D57DF253CE47B009AD53C /* FavListCell.swift */,
 				226D57D5253CBA46009AD53C /* FavListMovies.swift */,
 				22EE79102539CA6800D79DBF /* SignUpVC.swift */,
@@ -221,6 +232,7 @@
 				22E2167D253799FC006E7FC2 /* GoogleService-Info.plist */,
 				D209075F24B9EA180069B920 /* omsiSB.storyboard */,
 				22E2168525379B58006E7FC2 /* Main.storyboard */,
+				223CF47A253DEF3C004A0117 /* PeopleVC.swift */,
 				22EE79082539C52700D79DBF /* Assets.xcassets */,
 				D2C2703E24662C5A005E16A3 /* Networking */,
 				D2C2705324662CAA005E16A3 /* Models */,
@@ -440,6 +452,7 @@
 			files = (
 				D2C26FD424662807005E16A3 /* AppDelegate.swift in Sources */,
 				D2C2704C24662C6E005E16A3 /* Networking.swift in Sources */,
+				223CF46C253DE388004A0117 /* searchVC.swift in Sources */,
 				D2C2705724662F3F005E16A3 /* Item.swift in Sources */,
 				D209076724B9FB0D0069B920 /* HomeVC.swift in Sources */,
 				D2C2704B24662C68005E16A3 /* Optional.swift in Sources */,
@@ -455,9 +468,12 @@
 				D2C2705224662C9A005E16A3 /* User.swift in Sources */,
 				D209076324B9ED810069B920 /* OMRSignInVC.swift in Sources */,
 				D2C2705024662C73005E16A3 /* NetworkingSignUp.swift in Sources */,
+				223CF47B253DEF3C004A0117 /* PeopleVC.swift in Sources */,
 				D2C2704524662C63005E16A3 /* ImageLoader.swift in Sources */,
+				223CF478253DED6F004A0117 /* MoodsVC.swift in Sources */,
 				D2C2704824662C63005E16A3 /* DateFromatter.swift in Sources */,
 				D2C2704F24662C73005E16A3 /* NetowrkableAuth.swift in Sources */,
+				223CF47E253DF990004A0117 /* results.swift in Sources */,
 				D2C2704D24662C6E005E16A3 /* NetworkingImages.swift in Sources */,
 				D209076524B9EE8D0069B920 /* OMRSignUpVC.swift in Sources */,
 			);
