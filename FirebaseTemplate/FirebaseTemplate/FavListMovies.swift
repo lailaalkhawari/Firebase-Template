@@ -37,8 +37,12 @@ class FavListMovies: UIViewController , UITableViewDelegate , UITableViewDataSou
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 //        print(normal[indexPath.row].movieName)
+        
         favList.append(normal[indexPath.row])
         print(favList)
+        
+        tableView.cellForRow(at: indexPath)?.accessoryType = UITableViewCell.AccessoryType.checkmark
+           
     }
     
     
