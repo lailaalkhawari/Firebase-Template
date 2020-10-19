@@ -41,7 +41,11 @@ class FavListMovies: UIViewController , UITableViewDelegate , UITableViewDataSou
         favList.append(normal[indexPath.row])
         print(favList)
         
-        tableView.cellForRow(at: indexPath)?.accessoryType = UITableViewCell.AccessoryType.checkmark
+        if tableView.cellForRow(at: indexPath)?.accessoryType == UITableViewCell.AccessoryType.checkmark{
+            tableView.cellForRow(at: indexPath)?.accessoryType = UITableViewCell.AccessoryType.none
+        }else{
+            tableView.cellForRow(at: indexPath)?.accessoryType != UITableViewCell.AccessoryType.checkmark
+        }
            
     }
     

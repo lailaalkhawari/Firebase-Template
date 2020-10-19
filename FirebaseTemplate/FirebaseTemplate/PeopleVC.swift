@@ -8,9 +8,11 @@
 
 import UIKit
 
+var myPeople = ""
+
 class PeopleVC: UIViewController {
 
-    var myPeople : [String]!
+   
     
     @IBOutlet weak var label: UILabel!
     
@@ -42,6 +44,8 @@ class PeopleVC: UIViewController {
     
     @IBAction func resultButton(_ sender: Any) {
         
+        //call result function
+        
         performSegue(withIdentifier: "gotoresult", sender: myPeople)
         print(myPeople)
     }
@@ -49,3 +53,5 @@ class PeopleVC: UIViewController {
     
 
 }
+
+

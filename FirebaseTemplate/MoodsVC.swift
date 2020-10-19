@@ -8,9 +8,10 @@
 
 import UIKit
 
+var myMood = ""
+
 class MoodsVC: UIViewController {
 
-    var myMood : [String]!
     
     @IBOutlet weak var moodsLabel: UILabel!
     
