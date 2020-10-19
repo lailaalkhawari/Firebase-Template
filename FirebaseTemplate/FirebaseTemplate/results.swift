@@ -10,4 +10,14 @@ import Foundation
 
 //results
 
-
+//func result () {
+//
+//    if myMood== "happy" & mypeople == "family"{
+//
+//        show all the movies
+//
+//    }
+    
+    
+    
+//}

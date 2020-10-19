@@ -44,7 +44,7 @@ class FavListMovies: UIViewController , UITableViewDelegate , UITableViewDataSou
         if tableView.cellForRow(at: indexPath)?.accessoryType == UITableViewCell.AccessoryType.checkmark{
             tableView.cellForRow(at: indexPath)?.accessoryType = UITableViewCell.AccessoryType.none
         }else{
-            tableView.cellForRow(at: indexPath)?.accessoryType != UITableViewCell.AccessoryType.checkmark
+            tableView.cellForRow(at: indexPath)?.accessoryType = UITableViewCell.AccessoryType.checkmark
         }
            
     }

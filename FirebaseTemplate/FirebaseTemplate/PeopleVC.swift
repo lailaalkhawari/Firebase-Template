@@ -26,18 +26,22 @@ class PeopleVC: UIViewController {
 
     @IBAction func GirlsButton(_ sender: Any) {
         myPeople.append("girls")
+        
     }
     
     @IBAction func familyButton(_ sender: Any) {
         myPeople.append("family")
+        
     }
     
     @IBAction func BoysButton(_ sender: Any) {
         myPeople.append("boys")
+        
     }
     
     @IBAction func aloneButton(_ sender: Any) {
         myPeople.append("alone")
+        
     }
     
     

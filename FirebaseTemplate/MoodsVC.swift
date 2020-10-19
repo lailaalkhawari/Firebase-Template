@@ -25,21 +25,27 @@ class MoodsVC: UIViewController {
    
     @IBAction func happyButton(_ sender: Any) {
         myMood.append("happy")
+        
     }
     @IBAction func angryButton(_ sender: Any) {
         myMood.append("angry")
+        
     }
     @IBAction func sadButton(_ sender: Any) {
         myMood.append("sad")
+        
     }
     @IBAction func normalButton(_ sender: Any) {
         myMood.append("normal")
+        
     }
     @IBAction func scaredButton(_ sender: Any) {
         myMood.append("afraid")
+        
     }
     @IBAction func funnyButton(_ sender: Any) {
         myMood.append("funny")
+        
     }
     
     
