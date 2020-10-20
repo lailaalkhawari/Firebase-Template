@@ -34,11 +34,13 @@ func Results(){
     print("🥬 \(happyFamily)")
     
 //  happy + girls
-    let happyGirls = normal.filter({return $0.movieMood == "happy" && $0.movieRate == "PG" /*& "PG-13"*/ })
+    let happyGirls = normal.filter({return $0.movieMood == "happy" && $0.movieRate == "PG" /*& "PG-13"*/})
     print("🥔 \(happyGirls)")
+    
 //    happy + boys
     let happyBoys = normal.filter({return $0.movieMood == "happy" && $0.movieRate == "PG-13"})
     print("🙍🏻‍♂️\(happyBoys)")
+    
 //    happy + alone
     let happyAlone = normal.filter({return $0.movieMood == "happy" && $0.movieRate == "R" })
     print("👨🏻‍🦯\(happyAlone)")
@@ -46,7 +48,6 @@ func Results(){
     
 //    sad
     let sadFamily = normal.filter({return $0.movieMood == "sad" && $0.movieRate == "PG" })
-    
     
     let sadGirls = normal.filter({return $0.movieMood == "sad" && $0.movieRate == "PG-13" })
     

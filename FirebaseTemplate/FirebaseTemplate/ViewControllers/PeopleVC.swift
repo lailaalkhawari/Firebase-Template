@@ -8,11 +8,11 @@
 
 import UIKit
 
-var myPeople = ""
+
 
 class PeopleVC: UIViewController {
 
-   
+    var myPeople = ""
     
     @IBOutlet weak var label: UILabel!
     
@@ -27,35 +27,42 @@ class PeopleVC: UIViewController {
     @IBAction func GirlsButton(_ sender: Any) {
         myPeople.append("girls")
         
+        performSegue(withIdentifier: "gotoresult", sender: myPeople)
     }
     
     @IBAction func familyButton(_ sender: Any) {
         myPeople.append("family")
         
+        performSegue(withIdentifier: "gotoresult", sender: myPeople)
     }
     
     @IBAction func BoysButton(_ sender: Any) {
         myPeople.append("boys")
         
+        performSegue(withIdentifier: "gotoresult", sender: myPeople)
     }
     
     @IBAction func aloneButton(_ sender: Any) {
         myPeople.append("alone")
         
-    }
-    
-    
-    
-    @IBAction func resultButton(_ sender: Any) {
-        
-        //call result function
-        
         performSegue(withIdentifier: "gotoresult", sender: myPeople)
-        print(myPeople)
     }
     
     
-
+//    
+//    @IBAction func resultButton(_ sender: Any) {
+//        
+//        //call result function
+//        
+//        performSegue(withIdentifier: "gotoresult", sender: myPeople)
+//        print(myPeople)
+//    }
+    
+    
+    
+    
+    
+    
 }
 
 

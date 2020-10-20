@@ -15,7 +15,7 @@ class UserAppVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        gifBG.loadGif(name: "stars")
+        gifBG.loadGif(name: "tenor")
     }
     
 

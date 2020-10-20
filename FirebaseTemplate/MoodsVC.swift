@@ -8,12 +8,12 @@
 
 import UIKit
 
-var myMood = ""
+
 
 class MoodsVC: UIViewController {
 
-//    this var for the button color to change it everytime it's clicked
-//    var isActive : Bool = false
+    var myMood = ""
+    
     
     @IBOutlet weak var moodsLabel: UILabel!
     
@@ -24,6 +24,9 @@ class MoodsVC: UIViewController {
         
         
     }
+    
+
+    
     
 //    the Moods Button down here
    
@@ -85,14 +88,8 @@ class MoodsVC: UIViewController {
     
     
     
-//    @IBAction func nextToWho(_ sender: Any) {
-//        
-//        performSegue(withIdentifier: "gotopeople", sender: myMood)
-//     print(myMood)
-//        
-//    }
-//    
-//
-//    
+
+    
+    
     
 }
