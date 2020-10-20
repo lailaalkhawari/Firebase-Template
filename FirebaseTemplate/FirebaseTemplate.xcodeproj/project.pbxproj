@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		220DAA0E253EF1320081D028 /* stars.gif in Resources */ = {isa = PBXBuildFile; fileRef = 220DAA0D253EF1320081D028 /* stars.gif */; };
 		223CF46C253DE388004A0117 /* searchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223CF46B253DE388004A0117 /* searchVC.swift */; };
 		223CF478253DED6F004A0117 /* MoodsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223CF477253DED6F004A0117 /* MoodsVC.swift */; };
 		223CF47B253DEF3C004A0117 /* PeopleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223CF47A253DEF3C004A0117 /* PeopleVC.swift */; };
@@ -15,7 +16,6 @@
 		226D57E0253CE47B009AD53C /* FavListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226D57DF253CE47B009AD53C /* FavListCell.swift */; };
 		22B684DB253C958C00AEB346 /* FavList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B684DA253C958C00AEB346 /* FavList.swift */; };
 		22E0AA45253E33C800F1D4EC /* UserAppVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E0AA44253E33C800F1D4EC /* UserAppVC.swift */; };
-		22E0AA48253E33F100F1D4EC /* giphy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 22E0AA47253E33F100F1D4EC /* giphy.gif */; };
 		22E0AA4B253E33FE00F1D4EC /* Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E0AA4A253E33FE00F1D4EC /* Gif.swift */; };
 		22E2167E253799FC006E7FC2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22E2167D253799FC006E7FC2 /* GoogleService-Info.plist */; };
 		22E2168725379B58006E7FC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22E2168525379B58006E7FC2 /* Main.storyboard */; };
@@ -68,6 +68,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		220DAA0D253EF1320081D028 /* stars.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = stars.gif; sourceTree = "<group>"; };
 		223CF46B253DE388004A0117 /* searchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = searchVC.swift; path = FirebaseTemplate/searchVC.swift; sourceTree = SOURCE_ROOT; };
 		223CF477253DED6F004A0117 /* MoodsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodsVC.swift; sourceTree = SOURCE_ROOT; };
 		223CF47A253DEF3C004A0117 /* PeopleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleVC.swift; sourceTree = "<group>"; };
@@ -77,7 +78,6 @@
 		22B684DA253C958C00AEB346 /* FavList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FavList.swift; path = FirebaseTemplate/ViewControllers/FavList.swift; sourceTree = SOURCE_ROOT; };
 		22CBD0E82538A1FD00BE5FE4 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignInVC.swift; path = FirebaseTemplate/SignInVC.swift; sourceTree = SOURCE_ROOT; };
 		22E0AA44253E33C800F1D4EC /* UserAppVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAppVC.swift; sourceTree = SOURCE_ROOT; };
-		22E0AA47253E33F100F1D4EC /* giphy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = giphy.gif; sourceTree = "<group>"; };
 		22E0AA4A253E33FE00F1D4EC /* Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gif.swift; sourceTree = "<group>"; };
 		22E2167D253799FC006E7FC2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		22E2168625379B58006E7FC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../MOOM/MOOM/MOOM/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -195,7 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				22E0AA44253E33C800F1D4EC /* UserAppVC.swift */,
-				22E0AA47253E33F100F1D4EC /* giphy.gif */,
+				220DAA0D253EF1320081D028 /* stars.gif */,
 				223CF47D253DF990004A0117 /* results.swift */,
 				223CF477253DED6F004A0117 /* MoodsVC.swift */,
 				223CF46B253DE388004A0117 /* searchVC.swift */,
@@ -405,8 +405,8 @@
 				D2C26FE024662809005E16A3 /* LaunchScreen.storyboard in Resources */,
 				22E2167E253799FC006E7FC2 /* GoogleService-Info.plist in Resources */,
 				22E2168725379B58006E7FC2 /* Main.storyboard in Resources */,
+				220DAA0E253EF1320081D028 /* stars.gif in Resources */,
 				D2C26FDD24662809005E16A3 /* Preview Assets.xcassets in Resources */,
-				22E0AA48253E33F100F1D4EC /* giphy.gif in Resources */,
 				22EE79092539C52700D79DBF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
