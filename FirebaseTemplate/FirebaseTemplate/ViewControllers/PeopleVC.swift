@@ -12,7 +12,8 @@ import UIKit
 
 class PeopleVC: UIViewController {
 
-    var myPeople = ""
+    var myPeoplee = myPeople
+    var myMood2 : String = ""
     
     @IBOutlet weak var label: UILabel!
     
@@ -25,27 +26,31 @@ class PeopleVC: UIViewController {
 
 
     @IBAction func GirlsButton(_ sender: Any) {
-        myPeople.append("girls")
-        
+        myPeople = "PG-13"
+        print(myPeople)
         performSegue(withIdentifier: "gotoresult", sender: myPeople)
     }
     
     @IBAction func familyButton(_ sender: Any) {
-        myPeople.append("family")
-        
+        myPeople = "PG"
+        print(myPeople)
         performSegue(withIdentifier: "gotoresult", sender: myPeople)
     }
     
     @IBAction func BoysButton(_ sender: Any) {
-        myPeople.append("boys")
+       
+    myPeople = "PG-13"
         
         performSegue(withIdentifier: "gotoresult", sender: myPeople)
+        print(myPeople)
     }
     
     @IBAction func aloneButton(_ sender: Any) {
-        myPeople.append("alone")
+      
+        myPeople = "PG-13" 
         
         performSegue(withIdentifier: "gotoresult", sender: myPeople)
+        print(myPeople)
     }
     
     
@@ -58,8 +63,13 @@ class PeopleVC: UIViewController {
 //        print(myPeople)
 //    }
     
-    
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        let pickedMood = sender as! String
+        let vc = segue.destination as! MoviePage
+        vc.myPeople2 = self.myPeoplee
+
+    }
     
     
     

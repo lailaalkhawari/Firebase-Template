@@ -12,8 +12,8 @@ import UIKit
 
 class MoodsVC: UIViewController {
 
-    var myMood = ""
     
+    var myMoodd = myMood
     
     @IBOutlet weak var moodsLabel: UILabel!
     
@@ -31,8 +31,10 @@ class MoodsVC: UIViewController {
 //    the Moods Button down here
    
     @IBAction func happyButton(_ sender: UIButton) {
-        myMood.append("happy")
+//        myMood.append("happy")
+        myMood = "happy"
         
+       
         
         performSegue(withIdentifier: "gotopeople", sender: myMood)
      print(myMood)
@@ -41,8 +43,9 @@ class MoodsVC: UIViewController {
         
     }
     @IBAction func angryButton(_ sender: Any) {
-        myMood.append("angry")
+        myMood = "angry"
         
+      
         
         performSegue(withIdentifier: "gotopeople", sender: myMood)
      print(myMood)
@@ -50,46 +53,56 @@ class MoodsVC: UIViewController {
         
     }
     @IBAction func sadButton(_ sender: Any) {
-        myMood.append("sad")
+//        myMood.append("sad")
         
+        myMood = "sad"
         
+       
         performSegue(withIdentifier: "gotopeople", sender: myMood)
      print(myMood)
         
         
     }
     @IBAction func normalButton(_ sender: Any) {
-        myMood.append("normal")
+        myMood = "normal"
         
-        
+     
         performSegue(withIdentifier: "gotopeople", sender: myMood)
      print(myMood)
         
         
     }
     @IBAction func scaredButton(_ sender: Any) {
-        myMood.append("afraid")
+//        myMood.append("afraid")
         
+        myMood = "afriad"
         
+       
         performSegue(withIdentifier: "gotopeople", sender: myMood)
      print(myMood)
         
         
     }
     @IBAction func funnyButton(_ sender: Any) {
-        myMood.append("funny")
+//        myMood.append("funny")
         
+        myMood = "funny"
         
         performSegue(withIdentifier: "gotopeople", sender: myMood)
      print(myMood)
-        
-        
+    
     }
     
     
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        let pickedMood = sender as! String
+        let vc = segue.destination as! PeopleVC
+       vc.myMood2 = self.myMoodd
 
-    
+        
+    }
+
     
     
 }
