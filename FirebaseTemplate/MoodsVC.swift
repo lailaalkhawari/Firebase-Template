@@ -15,7 +15,7 @@ class MoodsVC: UIViewController {
     
     var myMoodd = myMood
     
-    @IBOutlet weak var moodsLabel: UILabel!
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,6 +35,7 @@ class MoodsVC: UIViewController {
         performSegue(withIdentifier: "gotopeople", sender: myMood)
      print(myMood)
         
+     
 //        sender.backgroundColor = UIColor.gray
         
 //        let demo2 = self.storyboard?.instantiateViewController(identifier: "PeopleVC") as! PeopleVC

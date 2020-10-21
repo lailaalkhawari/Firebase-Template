@@ -15,7 +15,7 @@ class PeopleVC: UIViewController {
     var myPeoplee = myPeople
     var myMood2 : String = ""
     
-    @IBOutlet weak var label: UILabel!
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()
