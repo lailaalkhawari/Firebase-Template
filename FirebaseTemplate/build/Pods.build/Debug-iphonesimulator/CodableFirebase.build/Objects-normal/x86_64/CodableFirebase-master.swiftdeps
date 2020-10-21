@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)"
+options: "7acfd79d9d3ee4c57d083366403b6229"
+build_time: [1603263136, 394122000]
+inputs:
+  "/Users/laylaalkhawari/Documents/GitHub/SPEED-1/Firebase-Template/FirebaseTemplate/Pods/CodableFirebase/CodableFirebase/Decoder.swift": [1602262984, 496833712]
+  "/Users/laylaalkhawari/Documents/GitHub/SPEED-1/Firebase-Template/FirebaseTemplate/Pods/CodableFirebase/CodableFirebase/Encoder.swift": [1602262984, 497130958]
+  "/Users/laylaalkhawari/Documents/GitHub/SPEED-1/Firebase-Template/FirebaseTemplate/Pods/CodableFirebase/CodableFirebase/FirebaseDecoder.swift": [1602262984, 497352189]
+  "/Users/laylaalkhawari/Documents/GitHub/SPEED-1/Firebase-Template/FirebaseTemplate/Pods/CodableFirebase/CodableFirebase/FirebaseEncoder.swift": [1602262984, 497493073]
+  "/Users/laylaalkhawari/Documents/GitHub/SPEED-1/Firebase-Template/FirebaseTemplate/Pods/CodableFirebase/CodableFirebase/FirestoreDecoder.swift": [1602262984, 497642456]
+  "/Users/laylaalkhawari/Documents/GitHub/SPEED-1/Firebase-Template/FirebaseTemplate/Pods/CodableFirebase/CodableFirebase/FirestoreEncoder.swift": [1602262984, 497781694]

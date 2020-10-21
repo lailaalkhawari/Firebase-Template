@@ -8,7 +8,10 @@
 
 import UIKit
 
-class MoviePage: UIViewController {
+class MoviePage: UIViewController , UITableViewDelegate , UITableViewDataSource {
+    
+   
+    
 
     var myPeople2 : String = ""
     
@@ -20,6 +23,19 @@ class MoviePage: UIViewController {
       
     }
     
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        Results(myMood: myMood, myPeople: myPeople).count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! MoviePageCell
+        
+        cell.moviePoster.image = UIImage(named: Results(myMood: myMood, myPeople: myPeople)[indexPath.row].moviePoster)
+        cell.movieNameLabel.text! = Results(myMood: myMood, myPeople: myPeople)[indexPath.row].movieName
+        
+        return cell
+    }
 
     /*
     // MARK: - Navigation

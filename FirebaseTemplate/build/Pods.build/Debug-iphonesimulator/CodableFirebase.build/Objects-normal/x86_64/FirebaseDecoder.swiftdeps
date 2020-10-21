@@ -1,0 +1,142 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FirebaseDecoder"
+provides-nominal:
+- "15CodableFirebase0B7DecoderC"
+- "15CodableFirebase0B7DecoderC20DateDecodingStrategyO"
+- "15CodableFirebase0B7DecoderC20DataDecodingStrategyO"
+provides-member:
+- ["15CodableFirebase0B7DecoderC", ""]
+- ["15CodableFirebase0B7DecoderC20DateDecodingStrategyO", ""]
+- ["15CodableFirebase0B7DecoderC20DataDecodingStrategyO", ""]
+provides-dynamic-lookup:
+- "dataDecodingStrategy"
+- "dateDecodingStrategy"
+- "decode"
+- "userInfo"
+depends-top-level:
+- !private "Array"
+- !private "BooleanLiteralType"
+- "CodingUserInfoKey"
+- "Data"
+- "DataDecodingStrategy"
+- "Date"
+- "DateDecodingStrategy"
+- "DateFormatter"
+- "Decodable"
+- "Decoder"
+- !private "DecodingError"
+- "FirebaseDecoder"
+- !private "StringLiteralType"
+- !private "_FirebaseDecoder"
+- !private "dataDecodingStrategy"
+- !private "dateDecodingStrategy"
+- !private "userInfo"
+depends-member:
+- !private ["s13DecodingErrorO7ContextV", "init"]
+- ["15CodableFirebase0B7DecoderC20DataDecodingStrategyO", "Data"]
+- ["15CodableFirebase0B7DecoderC20DataDecodingStrategyO", "Decoder"]
+- ["15CodableFirebase0B7DecoderC20DataDecodingStrategyO", "base64"]
+- ["15CodableFirebase0B7DecoderC20DataDecodingStrategyO", "custom"]
+- ["15CodableFirebase0B7DecoderC20DataDecodingStrategyO", "deferredToData"]
+- ["15CodableFirebase0B7DecoderC20DateDecodingStrategyO", "Date"]
+- ["15CodableFirebase0B7DecoderC20DateDecodingStrategyO", "DateFormatter"]
+- ["15CodableFirebase0B7DecoderC20DateDecodingStrategyO", "Decoder"]
+- ["15CodableFirebase0B7DecoderC20DateDecodingStrategyO", "custom"]
+- ["15CodableFirebase0B7DecoderC20DateDecodingStrategyO", "deferredToDate"]
+- ["15CodableFirebase0B7DecoderC20DateDecodingStrategyO", "formatted"]
+- ["15CodableFirebase0B7DecoderC20DateDecodingStrategyO", "iso8601"]
+- ["15CodableFirebase0B7DecoderC20DateDecodingStrategyO", "millisecondsSince1970"]
+- ["15CodableFirebase0B7DecoderC20DateDecodingStrategyO", "secondsSince1970"]
+- !private ["s7DecoderP", "Options"]
+- !private ["s7DecoderP", "_Options"]
+- !private ["s7DecoderP", "init"]
+- !private ["s7DecoderP", "unbox"]
+- !private ["s13DecodingErrorO", "Context"]
+- !private ["s13DecodingErrorO", "valueNotFound"]
+- !private ["s5ErrorP", "Context"]
+- !private ["s5ErrorP", ""]
+- !private ["s5ErrorP", "valueNotFound"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- ["15CodableFirebase0B7DecoderC", "CodingUserInfoKey"]
+- ["15CodableFirebase0B7DecoderC", "Data"]
+- ["15CodableFirebase0B7DecoderC", "DataDecodingStrategy"]
+- ["15CodableFirebase0B7DecoderC", "Date"]
+- ["15CodableFirebase0B7DecoderC", "DateDecodingStrategy"]
+- ["15CodableFirebase0B7DecoderC", "DateFormatter"]
+- ["15CodableFirebase0B7DecoderC", "Decodable"]
+- ["15CodableFirebase0B7DecoderC", "Decoder"]
+- !private ["15CodableFirebase0B7DecoderC", "DecodingError"]
+- !private ["15CodableFirebase0B7DecoderC", "FirebaseDecoder"]
+- !private ["15CodableFirebase0B7DecoderC", "_FirebaseDecoder"]
+- ["15CodableFirebase0B7DecoderC", "dataDecodingStrategy"]
+- ["15CodableFirebase0B7DecoderC", "dateDecodingStrategy"]
+- ["15CodableFirebase0B7DecoderC", "decode"]
+- ["15CodableFirebase0B7DecoderC", "deinit"]
+- ["15CodableFirebase0B7DecoderC", "init"]
+- ["15CodableFirebase0B7DecoderC", "userInfo"]
+- !private ["10Foundation14LocalizedErrorP", "Context"]
+- !private ["10Foundation14LocalizedErrorP", "valueNotFound"]
+- !private ["s28SingleValueDecodingContainerP", "Options"]
+- !private ["s28SingleValueDecodingContainerP", "_Options"]
+- !private ["s28SingleValueDecodingContainerP", "init"]
+- !private ["s28SingleValueDecodingContainerP", "unbox"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["15CodableFirebase01_B7DecoderC", "Options"]
+- !private ["15CodableFirebase01_B7DecoderC", "_Options"]
+- !private ["15CodableFirebase01_B7DecoderC", "init"]
+- !private ["15CodableFirebase01_B7DecoderC", "unbox"]
+- !private ["15CodableFirebase01_B7DecoderC8_OptionsV", "init"]
+depends-nominal:
+- !private "s13DecodingErrorO7ContextV"
+- "15CodableFirebase0B7DecoderC20DataDecodingStrategyO"
+- "15CodableFirebase0B7DecoderC20DateDecodingStrategyO"
+- !private "s7DecoderP"
+- !private "s13DecodingErrorO"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- "15CodableFirebase0B7DecoderC"
+- !private "10Foundation14LocalizedErrorP"
+- !private "s28SingleValueDecodingContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "15CodableFirebase01_B7DecoderC"
+- !private "15CodableFirebase01_B7DecoderC8_OptionsV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/laylaalkhawari/Documents/GitHub/SPEED-1/Firebase-Template/FirebaseTemplate/Pods/Target Support Files/CodableFirebase/CodableFirebase-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/laylaalkhawari/Documents/GitHub/SPEED-1/Firebase-Template/FirebaseTemplate/build/Pods.build/Debug-iphonesimulator/CodableFirebase.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "ed5b7ab5e02b3b066d2b45eb38e26a4c"

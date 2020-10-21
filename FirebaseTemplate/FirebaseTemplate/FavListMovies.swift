@@ -13,7 +13,6 @@ var favList : [Movie] = []
 class FavListMovies: UIViewController , UITableViewDelegate , UITableViewDataSource {
   
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 

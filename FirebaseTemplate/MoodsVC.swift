@@ -20,9 +20,7 @@ class MoodsVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-        
-        
+
     }
     
 
@@ -34,47 +32,42 @@ class MoodsVC: UIViewController {
 //        myMood.append("happy")
         myMood = "happy"
         
-       
-        
         performSegue(withIdentifier: "gotopeople", sender: myMood)
      print(myMood)
         
 //        sender.backgroundColor = UIColor.gray
         
     }
+    
     @IBAction func angryButton(_ sender: Any) {
         myMood = "angry"
         
-      
-        
         performSegue(withIdentifier: "gotopeople", sender: myMood)
      print(myMood)
         
         
     }
+    
     @IBAction func sadButton(_ sender: Any) {
-//        myMood.append("sad")
         
         myMood = "sad"
         
-       
         performSegue(withIdentifier: "gotopeople", sender: myMood)
      print(myMood)
         
         
     }
+    
     @IBAction func normalButton(_ sender: Any) {
         myMood = "normal"
         
-     
         performSegue(withIdentifier: "gotopeople", sender: myMood)
      print(myMood)
         
         
     }
+    
     @IBAction func scaredButton(_ sender: Any) {
-//        myMood.append("afraid")
-        
         myMood = "afriad"
         
        
@@ -83,6 +76,7 @@ class MoodsVC: UIViewController {
         
         
     }
+    
     @IBAction func funnyButton(_ sender: Any) {
 //        myMood.append("funny")
         
@@ -91,6 +85,7 @@ class MoodsVC: UIViewController {
         performSegue(withIdentifier: "gotopeople", sender: myMood)
      print(myMood)
     
+        
     }
     
     
@@ -100,9 +95,6 @@ class MoodsVC: UIViewController {
         let vc = segue.destination as! PeopleVC
        vc.myMood2 = self.myMoodd
 
-        
     }
-
-    
     
 }
