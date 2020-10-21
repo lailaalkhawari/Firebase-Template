@@ -42,11 +42,14 @@ class FavListMovies: UIViewController , UITableViewDelegate , UITableViewDataSou
         cell.labelName.text = normal[indexPath.row].movieName
         cell.labelRate.text = normal[indexPath.row].movieRate
       
+        //cell.backgroundcolor.cicolor.green
+        
         return cell
     }
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 //        print(normal[indexPath.row].movieName)
+        
         
         favList.append(normal[indexPath.row])
         print(favList)
