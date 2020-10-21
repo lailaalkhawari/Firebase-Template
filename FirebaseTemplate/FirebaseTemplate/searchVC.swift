@@ -20,8 +20,11 @@ class searchVC: UIViewController {
 
     @IBAction func search(_ sender: Any) {
         
-        performSegue(withIdentifier: "gotoMoods", sender: nil)
+       performSegue(withIdentifier: "gotoMoods", sender: nil)
+        
+
+
     }
-    
+   
 
 }

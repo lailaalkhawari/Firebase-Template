@@ -15,8 +15,19 @@ class FavListMovies: UIViewController , UITableViewDelegate , UITableViewDataSou
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        showAlert()
+        
+    }
+    
+    func showAlert() {
+        
+        let alert = UIAlertController(title: "alert" , message: "اختار على الاقل ١٠ افلام لتضاف الى لسته افلامك المفضلة", preferredStyle: .alert )
+        
+        alert.addAction(UIAlertAction(title: "ok" , style: .cancel,handler: {action in
+            print("alert tapped")
+        }))
+        present(alert , animated: true)
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -54,6 +65,8 @@ class FavListMovies: UIViewController , UITableViewDelegate , UITableViewDataSou
         performSegue(withIdentifier: "goto" , sender: favList)
         
 //        the signUp action here
+        
+       
         
         
     }

@@ -37,6 +37,10 @@ class MoodsVC: UIViewController {
         
 //        sender.backgroundColor = UIColor.gray
         
+//        let demo2 = self.storyboard?.instantiateViewController(identifier: "PeopleVC") as! PeopleVC
+//        
+//        self.navigationController?.pushViewController(demo2, animated: true)
+        
     }
     
     @IBAction func angryButton(_ sender: Any) {
@@ -80,6 +84,7 @@ class MoodsVC: UIViewController {
     @IBAction func funnyButton(_ sender: Any) {
 //        myMood.append("funny")
         
+        
         myMood = "funny"
         
         performSegue(withIdentifier: "gotopeople", sender: myMood)
@@ -96,5 +101,8 @@ class MoodsVC: UIViewController {
        vc.myMood2 = self.myMoodd
 
     }
+    
+    
+    
     
 }
