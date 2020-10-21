@@ -33,6 +33,7 @@ class MoviePage: UIViewController , UITableViewDelegate , UITableViewDataSource 
         
         cell.moviePoster.image = UIImage(named: Results(myMood: myMood, myPeople: myPeople)[indexPath.row].moviePoster)
         cell.movieNameLabel.text! = Results(myMood: myMood, myPeople: myPeople)[indexPath.row].movieName
+        cell.movieRate.text! = Results(myMood: myMood, myPeople: myPeople)[indexPath.row].movieRate
         
         return cell
     }

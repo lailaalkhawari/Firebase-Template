@@ -16,8 +16,10 @@ class FavListMovies: UIViewController , UITableViewDelegate , UITableViewDataSou
     override func viewDidLoad() {
         super.viewDidLoad()
         
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
         showAlert()
-        
     }
     
     func showAlert() {
@@ -39,8 +41,8 @@ class FavListMovies: UIViewController , UITableViewDelegate , UITableViewDataSou
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! FavListCell
         
         cell.imagePoster.image = (UIImage(named: normal[indexPath.row].moviePoster))
-        cell.labelName.text = normal[indexPath.row].movieName
-        cell.labelRate.text = normal[indexPath.row].movieRate
+//        cell.labelName.text = normal[indexPath.row].movieName
+//        cell.labelRate.text = normal[indexPath.row].movieRate
       
         //cell.backgroundcolor.cicolor.green
         
@@ -54,11 +56,11 @@ class FavListMovies: UIViewController , UITableViewDelegate , UITableViewDataSou
         favList.append(normal[indexPath.row])
         print(favList)
         
-        if tableView.cellForRow(at: indexPath)?.accessoryType == UITableViewCell.AccessoryType.checkmark{
-            tableView.cellForRow(at: indexPath)?.accessoryType = UITableViewCell.AccessoryType.none
-        }else{
-            tableView.cellForRow(at: indexPath)?.accessoryType = UITableViewCell.AccessoryType.checkmark
-        }
+       if tableView.cellForRow(at: indexPath)?.accessoryType == UITableViewCell.AccessoryType.checkmark{
+           tableView.cellForRow(at: indexPath)?.accessoryType = UITableViewCell.AccessoryType.none
+       }else{
+         tableView.cellForRow(at: indexPath)?.accessoryType = UITableViewCell.AccessoryType.checkmark
+       }
            
     }
     

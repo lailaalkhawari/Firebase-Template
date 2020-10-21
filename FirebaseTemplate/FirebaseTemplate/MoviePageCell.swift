@@ -12,6 +12,7 @@ class MoviePageCell: UITableViewCell {
 
     @IBOutlet weak var moviePoster: UIImageView!
     
+    @IBOutlet weak var movieRate: UILabel!
     @IBOutlet weak var movieNameLabel: UILabel!
     
     
