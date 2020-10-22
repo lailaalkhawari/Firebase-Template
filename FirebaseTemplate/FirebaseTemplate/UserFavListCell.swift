@@ -1,21 +1,19 @@
 //
-//  MoviePageCell.swift
+//  UserFavListCell.swift
 //  FirebaseTemplate
 //
-//  Created by Layla alkhawari on 10/21/20.
+//  Created by Layla alkhawari on 10/22/20.
 //  Copyright © 2020 OMAR. All rights reserved.
 //
 
 import UIKit
 
-class MoviePageCell: UITableViewCell {
+class UserFavListCell: UITableViewCell {
 
-    @IBOutlet weak var moviePoster: UIImageView!
     
-    @IBOutlet weak var movieRate: UILabel!
-    @IBOutlet weak var movieNameLabel: UILabel!
+    @IBOutlet weak var movieNameFav: UILabel!
+    @IBOutlet weak var movieImage: UIImageView!
     
-
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -28,10 +26,6 @@ class MoviePageCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
-   
-        
-        
-        
     
     
 }

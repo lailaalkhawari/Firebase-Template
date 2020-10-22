@@ -15,6 +15,7 @@ struct Movie {
     var moviePoster : String
     var movieRate : String
     var movieMood : String
+    var favorited = false
 }
 
 ///Users/laylaalkhawari/Documents/GitHub/SPEED-1/Firebase-Template/FirebaseTemplate/FirebaseTemplate/Assets.xcassets

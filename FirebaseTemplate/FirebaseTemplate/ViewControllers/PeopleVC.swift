@@ -31,13 +31,13 @@ class PeopleVC: UIViewController {
         performSegue(withIdentifier: "gotoresult", sender: myPeople) 
         
 //        let demo3 = self.storyboard?.instantiateViewController(identifier: "MoviePage") as! MoviePage
-//
 //        self.navigationController?.pushViewController(demo3, animated: true)
         
     }
     
     @IBAction func familyButton(_ sender: Any) {
         myPeople = "PG"
+      
         print(myPeople)
         performSegue(withIdentifier: "gotoresult", sender: myPeople)
     }
@@ -51,8 +51,7 @@ class PeopleVC: UIViewController {
     }
     
     @IBAction func aloneButton(_ sender: Any) {
-      
-        myPeople = "PG-13" 
+             myPeople = "PG-13"
         
         performSegue(withIdentifier: "gotoresult", sender: myPeople)
         print(myPeople)

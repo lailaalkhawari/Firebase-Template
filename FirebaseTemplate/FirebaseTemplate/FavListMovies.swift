@@ -15,7 +15,7 @@ class FavListMovies: UIViewController , UITableViewDelegate , UITableViewDataSou
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        favList = normal
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -24,57 +24,54 @@ class FavListMovies: UIViewController , UITableViewDelegate , UITableViewDataSou
     
     func showAlert() {
         
-        let alert = UIAlertController(title: "alert" , message: "اختار على الاقل ١٠ افلام لتضاف الى لسته افلامك المفضلة", preferredStyle: .alert )
+        let alert = UIAlertController(title: "اختار افلامك المفضلة" , message: "اختار على الاقل ١٠ افلام لتضاف إلى لسته افلامك المفضلة🎥", preferredStyle: .alert )
         
-        alert.addAction(UIAlertAction(title: "ok" , style: .cancel,handler: {action in
+        alert.addAction(UIAlertAction(title: "حسنا" , style: .cancel,handler: {action in
             print("alert tapped")
         }))
         present(alert , animated: true)
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return normal.count
+        return favList.count
     }
     
+   
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! FavListCell
-        
-        cell.imagePoster.image = (UIImage(named: normal[indexPath.row].moviePoster))
-//        cell.labelName.text = normal[indexPath.row].movieName
-//        cell.labelRate.text = normal[indexPath.row].movieRate
-      
-        //cell.backgroundcolor.cicolor.green
+        let movie = favList[indexPath.row]
+        cell.configure(movie: movie)
         
         return cell
     }
 
+    
+    func updateMovie(_ movie: Movie, indexPath: IndexPath){
+        
+    }
+    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        print(normal[indexPath.row].movieName)
-        
-        
-        favList.append(normal[indexPath.row])
-        print(favList)
-        
-       if tableView.cellForRow(at: indexPath)?.accessoryType == UITableViewCell.AccessoryType.checkmark{
-           tableView.cellForRow(at: indexPath)?.accessoryType = UITableViewCell.AccessoryType.none
-       }else{
-         tableView.cellForRow(at: indexPath)?.accessoryType = UITableViewCell.AccessoryType.checkmark
-       }
-           
+        var movie = favList[indexPath.row]
+        movie.favorited.toggle()
+        favList[indexPath.row] = movie
+        tableView.reloadRows(at: [indexPath], with: .automatic)
     }
+
     
     
-    @IBAction func nextButton(_ sender: Any) {
-        
-        performSegue(withIdentifier: "goto" , sender: favList)
-        
+    
+    
+   @IBAction func nextButton(_ sender: Any) {
+
+       performSegue(withIdentifier: "goto" , sender: favList)
+
 //        the signUp action here
-        
-       
-        
-        
-    }
+
+
+
+
+   }
     
     
     
@@ -89,3 +86,4 @@ class FavListMovies: UIViewController , UITableViewDelegate , UITableViewDataSou
     */
 
 }
+

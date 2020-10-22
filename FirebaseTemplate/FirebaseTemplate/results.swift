@@ -28,7 +28,7 @@ var myPeople = ""
 func Results(myMood: String , myPeople: String) -> [Movie]{
 
     
-    let filterdMovies = normal.filter({return $0.movieMood == myMood && $0.movieRate == myPeople})
+    let filterdMovies = favList.filter({return $0.movieMood == myMood && $0.movieRate == myPeople && $0.favorited})
     print(filterdMovies)
     
     return filterdMovies

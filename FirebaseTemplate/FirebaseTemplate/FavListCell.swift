@@ -9,20 +9,14 @@
 import UIKit
 
 class FavListCell: UITableViewCell {
-
     @IBOutlet weak var imagePoster: UIImageView!
-    @IBOutlet weak var labelName: UILabel!
-    @IBOutlet weak var labelRate: UILabel!
+    @IBOutlet weak var checkedImage : UIButton!
+
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    func configure(movie: Movie) {
+        let imageName = movie.favorited ? "checkmark" : "circle"
+        checkedImage.setBackgroundImage(UIImage(named: imageName), for: .normal)
+        imagePoster.image = UIImage(named: movie.moviePoster)
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-
+    
 }
