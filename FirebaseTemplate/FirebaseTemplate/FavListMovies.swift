@@ -26,7 +26,7 @@ class FavListMovies: UIViewController , UITableViewDelegate , UITableViewDataSou
     
     func showAlert() {
         
-        let alert = UIAlertController(title: "اختار افلامك المفضلة" , message: "اختار على الاقل ١٠ افلام لتضاف إلى لسته افلامك المفضلة🎥", preferredStyle: .alert )
+        let alert = UIAlertController(title: "اختار افلامك المفضلة" , message: "اختار على الاقل ١٠ افلام لتضاف إلى لستة افلامك المفضلة🎥", preferredStyle: .alert )
         
         alert.addAction(UIAlertAction(title: "حسنا" , style: .cancel,handler: {action in
             print("alert tapped")

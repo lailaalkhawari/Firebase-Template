@@ -23,8 +23,6 @@ class MoodsVC: UIViewController {
 
     }
     
-
-    
     
 //    the Moods Button down here
    
@@ -102,8 +100,5 @@ class MoodsVC: UIViewController {
        vc.myMood2 = self.myMoodd
 
     }
-    
-    
-    
     
 }

@@ -13,7 +13,6 @@ var filteredList: [Movie] = []
 class UserFavListVC: UIViewController , UITableViewDataSource , UITableViewDelegate {
 
 
-    
     @IBOutlet weak var tableView: UITableView!
     
     
