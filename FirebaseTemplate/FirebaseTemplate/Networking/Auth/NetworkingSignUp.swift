@@ -26,8 +26,11 @@ extension Networking{
     static func signUp(user: User, password: String, success: ((String)->Void)? = nil, fail: (()->Void)? = nil)
     {
         print("👱🏻‍♂️ Creating user ...")
+        print(user.email)
+        print("password", password)
         Auth.auth().createUser(withEmail: user.email, password: password) { (result, error) in
             guard (error == nil) else {
+                print(error,"this is my error")
                 DispatchQueue.main.async{
                     fail?()
                 }

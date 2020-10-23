@@ -44,7 +44,7 @@ class SignUpVC: UIViewController {
                 self.performSegue(withIdentifier: "signed", sender: nil)
             }){
                 // ❌ Failed
-                self.errorMessage(message: "Couldn't sign in, make sure the email and password are correct")
+                self.errorMessage(message: "Couldn't sign up, make sure the email and password are correct")
             }
         }
         else{

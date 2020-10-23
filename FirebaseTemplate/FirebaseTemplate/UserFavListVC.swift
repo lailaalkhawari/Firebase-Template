@@ -8,22 +8,33 @@
 
 import UIKit
 
-class UserFavListVC: UIViewController , UITableViewDataSource , UITableViewDelegate {
-    
-    
-    
-    var filteredList: [Movie] = []
+var filteredList: [Movie] = []
 
+class UserFavListVC: UIViewController , UITableViewDataSource , UITableViewDelegate {
+
+
+    
+    @IBOutlet weak var tableView: UITableView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        let uid = Networking.getUserId()!
+        Networking.getListOf(COLLECTION_NAME: "users/\(uid)/fav") { (favlistMovies : [Movie]) in
+            
+            filteredList = favlistMovies
+            print(uid)
+            print("🕴🏼\(favlistMovies)")
+            self.tableView.reloadData()
+            
+        }
+//        filteredList = favList.filter{$0.favorited}
         
-        filteredList = favList.filter{$0.favorited}
         
         // Do any additional setup after loading the view.
     }
     
-
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         filteredList.count
@@ -34,10 +45,9 @@ class UserFavListVC: UIViewController , UITableViewDataSource , UITableViewDeleg
         
         cell.movieNameFav.text! = filteredList[indexPath.row].movieName
         cell.movieImage.image = UIImage(named: filteredList[indexPath.row].moviePoster)
-        
+      
         return cell
     }
    
-    
 
 }

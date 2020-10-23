@@ -37,7 +37,7 @@ class UserSignUp: UIViewController {
                         lastName: lastName,
                         email: email,
                         phoneNumber: phoneNumber)
-
+        print("sign in vc password",password  , conformPassword)
         if validatePassword(password: password, conformPassword: conformPassword){
             Networking.signUp(user: user, password: password, success:  { uid in
                 // ✅ Success
@@ -64,6 +64,7 @@ class UserSignUp: UIViewController {
         present(alertController, animated: true)
     }
 
+    
    
         }
     

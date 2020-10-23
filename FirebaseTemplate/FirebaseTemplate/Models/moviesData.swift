@@ -10,7 +10,7 @@ import Foundation
 
 
 
-struct Movie {
+struct Movie : Codable{
     var movieName : String
     var moviePoster : String
     var movieRate : String
@@ -45,7 +45,7 @@ let happy = [
     Movie(movieName: "Ocean's 8 ", moviePoster: "Ocean's8", movieRate: "PG-13", movieMood: "happy") ,
     Movie(movieName: "The Theory of Everything", moviePoster: "TheTheoryOfEverything", movieRate: "PG-13", movieMood: "happy") ,
     Movie(movieName: "Coco", moviePoster: "Coco", movieRate: "PG", movieMood: "happy") ,
-    Movie(movieName: "Crazy Rich Asians", moviePoster: "CrazyRichAsians", movieRate: "PG-13", movieMood: "happy") ,
+    
     Movie(movieName: "Knives Out", moviePoster: "KnivesOut", movieRate: "PG", movieMood: "happy")
     
 ]

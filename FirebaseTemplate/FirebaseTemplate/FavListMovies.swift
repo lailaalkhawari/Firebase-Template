@@ -16,6 +16,8 @@ class FavListMovies: UIViewController , UITableViewDelegate , UITableViewDataSou
     override func viewDidLoad() {
         super.viewDidLoad()
         favList = normal
+        
+//    networking.getlist
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -64,12 +66,23 @@ class FavListMovies: UIViewController , UITableViewDelegate , UITableViewDataSou
     
    @IBAction func nextButton(_ sender: Any) {
 
+    filteredList = favList.filter{$0.favorited}
+    
+    for favourate in filteredList {
+        print(" 🤐\(favourate)")
+        guard let uid = Networking.getUserId() else{
+            return
+        }
+        DispatchQueue.main.async{
+            Networking.createItem(favourate, inCollection: "users/\(uid)/fav")
+            {
+               print("let's Gooo🏃🏽‍♀️")
+            }
+
+        }
+    }
+    
        performSegue(withIdentifier: "goto" , sender: favList)
-
-//        the signUp action here
-
-
-
 
    }
     

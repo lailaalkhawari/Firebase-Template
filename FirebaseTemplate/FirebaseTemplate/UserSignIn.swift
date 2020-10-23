@@ -30,11 +30,13 @@ class UserSignIn: UIViewController {
         Networking.signIn(user: SignInCredentials(email: email, password: password), success: { uid in
             // ✅ Success
             print("You have signed in successfully")
-            self.performSegue(withIdentifier: "signed", sender: nil)
+            self.performSegue(withIdentifier: "goto", sender: nil)
         }){ error in
             // ❌ Fail
             self.errorMessage(message: "Couldn't sign in with error: \(error)")
         }
+        
+        
     }
 
 
