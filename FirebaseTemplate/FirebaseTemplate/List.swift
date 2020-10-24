@@ -10,5 +10,4 @@ import UIKit
 
 struct List : Codable {
     var movieList : [String]
-    
 }
