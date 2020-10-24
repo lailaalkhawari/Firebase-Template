@@ -38,5 +38,11 @@ func Results(myMood: String , myPeople: String) -> [Movie]{
 }
 
 
+func SignedResults (favvlist : [Movie] , mymoody: String , mypeople: String) -> [Movie] {
+    
+    let filterdMovies2 = favvlist.filter({return $0.movieMood == mymoody && $0.movieRate == mypeople && $0.favorited})
+    return filterdMovies2
+    
+}
 
 

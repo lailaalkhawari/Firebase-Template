@@ -11,35 +11,40 @@ import UIKit
 class MoviePage: UIViewController , UITableViewDelegate , UITableViewDataSource {
     
    
+    var fBasefilters : [Movie]!
     
-
-    var myPeople2 : String = ""
+    var mymoody : String!
+    var myPeople2 : String!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        Results(myMood: myMood, myPeople: myPeople)
+        
+//        Results(myMood: myMood, myPeople: myPeople)
         
         //for cells results.count 
       
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+       
+    }
+    
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        Results(myMood: myMood, myPeople: myPeople).count
+        SignedResults(favvlist: fBasefilters , mymoody: mymoody , mypeople: myPeople2).count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! MoviePageCell
         
-        cell.moviePoster.image = UIImage(named: Results(myMood: myMood, myPeople: myPeople)[indexPath.row].moviePoster)
-        cell.movieNameLabel.text! = Results(myMood: myMood, myPeople: myPeople)[indexPath.row].movieName
-        cell.movieRate.text! = Results(myMood: myMood, myPeople: myPeople)[indexPath.row].movieRate
+        cell.moviePoster.image = UIImage(named: SignedResults(favvlist: fBasefilters , mymoody: mymoody , mypeople: myPeople2)[indexPath.row].moviePoster)
+        cell.movieNameLabel.text! = SignedResults(favvlist: fBasefilters , mymoody: mymoody , mypeople: myPeople2)[indexPath.row].movieName
+        cell.movieRate.text! = SignedResults(favvlist: fBasefilters , mymoody: mymoody , mypeople: myPeople2)[indexPath.row].movieRate
         
         return cell
     }
 
-   
-    
 
     @IBAction func backButton(_ sender: Any) {
         

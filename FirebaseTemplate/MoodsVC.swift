@@ -13,14 +13,13 @@ import UIKit
 class MoodsVC: UIViewController {
 
     
-    var myMoodd = myMood
+    var myMoodd : String!
     
    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-
+        
     }
     
     
@@ -28,7 +27,7 @@ class MoodsVC: UIViewController {
    
     @IBAction func happyButton(_ sender: UIButton) {
 //        myMood.append("happy")
-        myMood = "happy"
+        myMoodd = "happy"
         
         performSegue(withIdentifier: "gotopeople", sender: myMood)
      print(myMood)
@@ -43,7 +42,7 @@ class MoodsVC: UIViewController {
     }
     
     @IBAction func angryButton(_ sender: Any) {
-        myMood = "angry"
+        myMoodd = "angry"
         
         performSegue(withIdentifier: "gotopeople", sender: myMood)
      print(myMood)
@@ -53,7 +52,7 @@ class MoodsVC: UIViewController {
     
     @IBAction func sadButton(_ sender: Any) {
         
-        myMood = "sad"
+        myMoodd = "sad"
         
         performSegue(withIdentifier: "gotopeople", sender: myMood)
      print(myMood)
@@ -62,7 +61,7 @@ class MoodsVC: UIViewController {
     }
     
     @IBAction func normalButton(_ sender: Any) {
-        myMood = "normal"
+        myMoodd = "normal"
         
         performSegue(withIdentifier: "gotopeople", sender: myMood)
      print(myMood)
@@ -71,7 +70,7 @@ class MoodsVC: UIViewController {
     }
     
     @IBAction func scaredButton(_ sender: Any) {
-        myMood = "afriad"
+        myMoodd = "afriad"
         
        
         performSegue(withIdentifier: "gotopeople", sender: myMood)
@@ -84,7 +83,7 @@ class MoodsVC: UIViewController {
 //        myMood.append("funny")
         
         
-        myMood = "funny"
+        myMoodd = "funny"
         
         performSegue(withIdentifier: "gotopeople", sender: myMood)
      print(myMood)

@@ -8,9 +8,9 @@
 
 import UIKit
 
-@IBDesignable
 
-class customTextFields: UITextField {
+
+@IBDesignable class customTextFields: UITextField {
 
     @IBInspectable var rightImage : UIImage? {
         didSet{

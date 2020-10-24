@@ -12,22 +12,34 @@ import UIKit
 
 class PeopleVC: UIViewController {
 
-    var myPeoplee = myPeople
-    var myMood2 : String = ""
+    
+    var fBasefilters : [Movie]!
+    
+    var myPeoplee : String!
+    var myMood2 : String!
     
    
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        let uid = Networking.getUserId()!
+        Networking.getListOf(COLLECTION_NAME: "users/\(uid)/fav") { (favlistMovies : [Movie]) in
+            
+            self.fBasefilters = favlistMovies
+            print(uid)
+            print("💅🏼\(favlistMovies)")
+        
+        }
+        
         // Do any additional setup after loading the view.
     }
     
 
 
     @IBAction func GirlsButton(_ sender: Any) {
-        myPeople = "PG-13"
-        print(myPeople)
+        myPeoplee = "PG-13"
+        print(myPeoplee)
         performSegue(withIdentifier: "gotoresult", sender: myPeople) 
         
 //        let demo3 = self.storyboard?.instantiateViewController(identifier: "MoviePage") as! MoviePage
@@ -36,25 +48,25 @@ class PeopleVC: UIViewController {
     }
     
     @IBAction func familyButton(_ sender: Any) {
-        myPeople = "PG"
+        myPeoplee = "PG"
       
-        print(myPeople)
+        print(myPeoplee)
         performSegue(withIdentifier: "gotoresult", sender: myPeople)
     }
     
     @IBAction func BoysButton(_ sender: Any) {
        
-    myPeople = "PG-13"
+    myPeoplee = "PG-13"
         
         performSegue(withIdentifier: "gotoresult", sender: myPeople)
-        print(myPeople)
+        print(myPeoplee)
     }
     
     @IBAction func aloneButton(_ sender: Any) {
-             myPeople = "PG-13"
+             myPeoplee = "PG-13"
         
         performSegue(withIdentifier: "gotoresult", sender: myPeople)
-        print(myPeople)
+        print(myPeoplee)
     }
     
     
@@ -72,7 +84,9 @@ class PeopleVC: UIViewController {
         let pickedMood = sender as! String
         let vc = segue.destination as! MoviePage
         vc.myPeople2 = self.myPeoplee
-
+        vc.mymoody = self.myMood2
+        vc.fBasefilters = self.fBasefilters
+        
     }
     
     
