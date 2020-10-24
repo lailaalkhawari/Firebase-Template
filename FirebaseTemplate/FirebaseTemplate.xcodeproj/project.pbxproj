@@ -16,6 +16,7 @@
 		2242E892253F3F8E00FFCA31 /* tenor.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2242E891253F3F8E00FFCA31 /* tenor.gif */; };
 		2244C44225407442007FFADA /* MoviePageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2244C44125407442007FFADA /* MoviePageCell.swift */; };
 		2244C46C25409D19007FFADA /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2244C46B25409D19007FFADA /* TabBar.swift */; };
+		224A8760254405C8001BC0A8 /* customTextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224A875F254405C8001BC0A8 /* customTextFields.swift */; };
 		225658DC2541CADD0040D2C3 /* UserFavListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225658DB2541CADD0040D2C3 /* UserFavListVC.swift */; };
 		225658E42541CC9D0040D2C3 /* UserFavListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225658E32541CC9D0040D2C3 /* UserFavListCell.swift */; };
 		226D57D6253CBA46009AD53C /* FavListMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226D57D5253CBA46009AD53C /* FavListMovies.swift */; };
@@ -85,6 +86,7 @@
 		2242E891253F3F8E00FFCA31 /* tenor.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tenor.gif; sourceTree = "<group>"; };
 		2244C44125407442007FFADA /* MoviePageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MoviePageCell.swift; path = FirebaseTemplate/MoviePageCell.swift; sourceTree = SOURCE_ROOT; };
 		2244C46B25409D19007FFADA /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = SOURCE_ROOT; };
+		224A875F254405C8001BC0A8 /* customTextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = customTextFields.swift; path = FirebaseTemplate/customTextFields.swift; sourceTree = SOURCE_ROOT; };
 		225658DB2541CADD0040D2C3 /* UserFavListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserFavListVC.swift; path = FirebaseTemplate/UserFavListVC.swift; sourceTree = SOURCE_ROOT; };
 		225658E32541CC9D0040D2C3 /* UserFavListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserFavListCell.swift; path = FirebaseTemplate/UserFavListCell.swift; sourceTree = SOURCE_ROOT; };
 		226D57D5253CBA46009AD53C /* FavListMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FavListMovies.swift; path = FirebaseTemplate/FavListMovies.swift; sourceTree = SOURCE_ROOT; };
@@ -208,6 +210,7 @@
 		D209076124B9ED660069B920 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				224A875F254405C8001BC0A8 /* customTextFields.swift */,
 				2281927D25432CF3000B5889 /* List.swift */,
 				2220CD842542FB0600E32316 /* UserSignIn.swift */,
 				225658E32541CC9D0040D2C3 /* UserFavListCell.swift */,
@@ -499,6 +502,7 @@
 				22750AAE253F5A7000142FF5 /* MoviePage.swift in Sources */,
 				2281927E25432CF3000B5889 /* List.swift in Sources */,
 				D209076324B9ED810069B920 /* SignInVC.swift in Sources */,
+				224A8760254405C8001BC0A8 /* customTextFields.swift in Sources */,
 				D2C2705024662C73005E16A3 /* NetworkingSignUp.swift in Sources */,
 				2244C44225407442007FFADA /* MoviePageCell.swift in Sources */,
 				225658E42541CC9D0040D2C3 /* UserFavListCell.swift in Sources */,

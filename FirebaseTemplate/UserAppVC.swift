@@ -14,18 +14,16 @@ class UserAppVC: UIViewController {
     @IBOutlet weak var userName: UILabel!
     @IBOutlet weak var UserEmail: UILabel!
     
-    
-//    
-    
-    
-    
     @IBOutlet weak var gifBG: UIImageView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         gifBG.loadGif(name: "tenor")
     }
+    
+    
     
 
 }
